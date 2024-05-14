@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes por Colombia</title>
+    <link rel="stylesheet" href="css/proyec.css">
+
+</head>
+
+<body >
+
+    <script>
+        var img = document.createElement("img")
+
+        img.src = "recursos/Img.jpg"
+        img.style.width = "100%"
+        img.style.height = "600px"
+        img.style.position = "relative"
+
+        document.body.appendChild(img)
+
+        var header = document.createElement("header")
+        header.innerHTML = `
+
+        <div class="Izquierdo">
+            <img src="recursos/LOGO 2.png" alt="" height="75px" width="100px">
+        </div>
+
+        <div class="Derecho">
+        <div class="BotonesNada">
+        <a href="#" class="ButtonHome">HOME</a>
+        </div>
+        <a href="#">SERVICES</a>
+        <a href="#">EVENTS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#" style = "margin-right: 15px;">CONTACT</a>
+
+        </div>
+    `
+        header.style.display = "flex"
+        header.style.top = "-550px"
+        header.style.position = "relative"
+        header.style.marginRight = "auto"
+        header.style.marginLeft = "auto"
+        header.style.height = "80px"
+        header.style.width = "80%"
+        header.style.alignItems = "center"
+        header.style.backgroundColor = "white"
+
+        document.body.appendChild(header)
+
+        var divInformacion = document.createElement("div")
+        divInformacion.innerHTML = `
+        <div>
+            <br>    
+        <span class="TituloPrecio" style="font-size: 25px; background-color: red; padding: 10px 25px; color: white; ">$8,450</span>
+        <h3 style="color: black;">Venice Italy</h3>
+        <p>Travel is free responsive template by templatemo <br>
+           all images use in this template are from Unisplash</p>
+        <br>
+        <a href="#" style="background-color: #9fd133; color: white; padding: 15px 25px; " >PRE-BOOKING</a>
+        </div>
+        `
+        divInformacion.style.display = "flex"
+        divInformacion.style.position = "relative"
+        divInformacion.style.height = "250px"
+        divInformacion.style.width = "350px"
+        divInformacion.style.top = "-450px"
+        divInformacion.style.left = "120px"
+        divInformacion.style.backgroundColor = "white"
+        divInformacion.style.textAlign = "center"
+
+        document.body.appendChild(divInformacion)
+
+        var divTaller = document.createElement("div")
+        divTaller.innerHTML = `
+        <div>
+            <span class="paises">ITALY</span>
+            <img src="recursos/1png.jpg" alt="italia" class="PaisesColombia">
+            <p style="color: #9fd133;">Rome, Milan, Naples</p>
+            <p style="color: #eb4245;">SILVER HOTEL, 4 NIGHTS, 5 STARS</p>
+            <br>
+            <a href="#" class="boton">$1,800 BOOK NOW</a>
+        </div>
+
+        <div>
+            <span class="paises">FRANCE</span>
+            <img src="recursos/2png.jpg" alt="francia" class="PaisesColombia">
+            <p style="color: #9fd133;">Paris, Marseille, Lyon</p>
+            <p style="color: #eb4245;">NEW PLACE , 5 NIGHTS , 5 STARS </p>
+            <br>
+            <a href="#" class="boton">$2,300 BOOK NOW</a>
+        </div>
+
+        <div>
+            <span class="paises">GERMANY</span>
+            <img src="recursos/3png.avif" alt="alemania" class="PaisesColombia">
+            <p style="color: #9fd133;">Berlin, Hamburg, Munich</p>
+            <p style="color: #eb4245;">LUXE HOTEL, 5 NIGHTS, 6 STARS</p>
+            <br>
+            <a href="#" class="boton">$3,100 BOOK NOW</a>
+        </div>
+
+        <div>
+            <span class="paises">SPAIN</span>
+            <img src="recursos/4png.jpeg" alt="españa" class="PaisesColombia">
+            <p style="color: #9fd133;">Madrid, Barcelona, Valencia</p>
+            <p style="color: #eb4245;">GOOHD HOTEL, 4 NIGHTS, 6 STARS</p>
+            <br>
+            <a href="#" class="boton">$4.800 BOOK NOW</a>
+        </div>
+
+        `
+        divTaller.style.display = "flex"
+        divTaller.style.gap = "80px"
+        divTaller.style.marginLeft = "auto"
+        divTaller.style.marginRight = "auto"
+        divTaller.style.position = "relative"
+        divTaller.style.margin = "0%"
+        divTaller.style.marginTop = "-390px"
+        divTaller.style.justifyContent = "center"
+        document.body.appendChild(divTaller)
+
+        var logos = document.createElement("img")
+
+        logos.src = "recursos/Imagen-trabajo.jpg"
+        logos.style.width = "100%"
+        logos.style.height = "150px"
+         logos.style.marginTop = "180px"
+        logos.style.position = "absolute"
+
+        document.body.appendChild(logos)
+
+        var barraInferior = document.createElement("div")
+
+        barraInferior.innerHTML = `
+        <div class="Barra" >
+            <img src="recursos/LOGO 2.png" alt="Logo" height="80px" width="140px">
+
+        </div>
+        <div class="Centro">
+            <p>Copyright c 2084 Company Name-Travel by templatemo</p>
+
+        </div>
+        <div class="BarraOrizontal">
+            <img src="recursos/Barra-Mejorada.png" alt="Barra" height="100px" width="180px">
+            
+
+        </div>
+
+        `
+        barraInferior.style.display = "flex"
+        barraInferior.style.width = "100%"
+        barraInferior.style.justifyContent = "center"
+        barraInferior.style.alignItems = "center"
+        barraInferior.style.marginTop = "380px"
+
+        document.body.appendChild(barraInferior)
+
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
